@@ -1,0 +1,294 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:Roboto;
+}
+/*********************************************TRANG CHỦ**************************************/
+            /**HEADER*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+    height:120px;
+}
+.logo{
+}
+.logo img{
+    width:100%;
+    height:100%;
+}
+.text a{
+    margin-left:20px;
+    text-decoration:none;
+    font-size:25px;
+    padding:40px;
+    font-weight:bold;
+    color:black;
+}
+.text{
+    width:60%;
+}
+.register a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 50px;
+    font-weight: bold;
+    color: black;
+    background: #C5705D;
+}
+.register{
+    margin-left:20px;
+    width:20%;
+}
+
+            /**CONTENT*/
+
+
+.content img {
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+.content {
+    position: relative;
+    width: 100%;
+}
+.overplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.62); /* Điều chỉnh màu sắc và độ trong suốt ở đây */
+    z-index: 1;
+}
+.text-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    color: #FF4545;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/**BODY*/
+.body {
+    width: 100%;
+    height: 150px;
+}
+.body-content {
+    background: #C5705D;
+    text-align:center;
+    border-radius:30px;
+    margin:0 auto;
+    width:80%;
+    padding:20px;
+}
+.body-content p{
+    font-size:60px;
+    color:white;
+    font-style:italic;
+}
+.body-content h2{
+    font-size:40px;
+    color:white;
+    font-weight:normal;
+}
+
+/**MAIN*/
+.main{
+    width:100%;
+    height:600px;
+}
+    .main img {
+        width: 100%;
+        height: 600px;
+    }
+
+
+/**FOOTER*/
+.footer{
+    width:100%;
+    display:flex;
+    height:700px;
+}
+.footer-left img{
+    width:100%;
+    height:700px;
+}
+.footer-left{
+    width:50%;
+}
+.footer-right {
+    width: 50%;
+    background: #4A4947;
+}
+
+.footer-right h3{
+    text-align:center;
+    font-size:50px;
+    padding:30px;
+    color:white;
+}
+    .footer-right button {
+        padding: 20px 50px;
+        font-weight:bold;
+        font-size:15px;
+        background: #C5705D;
+        text-align:center;
+        outline:none;
+        display:block;
+        border:none;
+        border-radius:5px;
+        margin:0 auto;
+    }
+.footer-right h1{
+    padding:30px;
+    margin-left:20px;
+    color:white;
+
+}
+/**Contact*/
+.contact {
+    width: 100%;
+    display: flex;
+    background: #D9D9D9;
+    height: 350px;
+    padding: 30px;
+}
+    .contact img {
+        display: block;
+        margin: 0 auto;
+    }
+.contact-left{
+    width:20%;
+    padding:50px;
+    font-size:8px;
+}
+.contact h1{
+    margin-top:30px;
+}
+.contact-right{
+    font-size:10px;
+    font-weight:normal;
+    text-align:unset;
+}
+.contact-right{
+    width:80%;
+}
+
+/*********************************************ABOUT US**************************************/
+.heading {
+    height: 100px;
+    background: #4A4947;
+
+}
+    .heading p {
+        font-weight: 500;
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        padding: 20px;
+    }
+.about-us {
+    height: 500px;
+    text-align: justify;
+}
+    .about-us p {
+        padding: 50px;
+        font-size: 24px;
+        margin: 50px 30px 50px 30px;
+        line-height: 2.5;
+    }
+
+    /**************************REGISTER*****************/
+.form{
+}
+.register- h2{
+    text-align:center;
+    color:white;
+    font-size:57px;
+    font-weight:normal;
+}
+.register- {
+    background: #C5705D;
+    padding:40px;
+    display:block;
+    margin:60px auto;
+    border-radius:30px;
+    width:30%;
+
+}
+.input-group {
+    padding: 10px;
+    color: #F8EDE3;
+    font-size:28px;
+}
+input {
+    margin-top: 15px;
+    height: 50px;
+    width: 550px;
+    border-radius: 15px;
+    background: #F8EDE3;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+    input:focus {
+        outline: none;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+.register-btn {
+    padding: 15px 80px;
+    background: #4A4947;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    border:none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-text{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    text-decoration:none;
+}
+.login--text {
+    text-align: center;
+
+}
+.fa-brands fa-google i{
+    font-size:30px;
+}
+label {
+    margin: 10px;
+}
+.login-btn {
+    padding: 15px 80px;
+    background: #4A4947;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
